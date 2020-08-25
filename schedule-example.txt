@@ -1,0 +1,6 @@
+25-08-2020,16:01,/HelloWorld,This will print hello world,loud
+25-08-2020,15:56,/LockPC,This will lock your PC,loud
+25-08-2020,16:20,/SuggestMovie,This will suggest you a movie,silent
+25-08-2020,16:25,/SuggestAlbum,This will suggest you an Album,silent
+25-08-2020,16:30,/NotifyMe,Do the dishes,loud
+

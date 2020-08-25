@@ -1,0 +1,65 @@
+Explanation on config.txt:
+open config-example.txt 
+This is an example config file. try to fill in config.txt based on this file.
+As you can see there are 6 lines filled out in config-example.txt file. 
+1-the first line is the SMTP server. depending on the email service you use gmail, yahoo, outlook and etc.. the smtp servers will be different.
+google to find out whats the smtp server for the email service you are using then input your smtp server in config.txt
+
+2-The second line is the port that will be used for sending emails (emails are automatically sent by the application when a scheduled command runs and you
+would like to be notified about the result). Use port 587 in config.txt since this port is the default email submission port.
+
+3-The third line is the email address you would like to use for sending emails. Some email services by default do not allow sending emails via a python program
+for example google disallows less secure apps to send emails by default. To be able to send email using python for a gmail account: login to that gmail account then visit here https://myaccount.google.com/lesssecureapps and turn on less secure apps option.
+
+4-The fourth line is the password of the email address you provided on line 3
+
+5-The fifth line is the email address that will receive a notification. You do not need to allow less secure apps on this email.
+
+6-This is the link to the place you will upload your schedule file as a text. In case you have an FTP server you can make a folder and make a file in that folder named onlineschedule.txt   (the file should have exactly this name). Then provide line six of config.txt file with url that leads to the online schedule. An example can be seen in config-example.  This step is optional and the application works without online schedule.
+
+
+
+Explanation on schedule.txt:
+open schedule-example.txt 
+open commandslist.txt
+
+in commandslist.txt you can see names of all the commands that are currently configured for the JustAutomateMyDay application (you can configure you own commands as well. Check readme.md for instructions on how to do that).
+
+in schedule-example.txt you see some example tasks that the application can run based on a schedule.
+for instance look at the examples below:
+Example A:
+25-08-2020,16:01,/HelloWorld,This will print hello world,loud
+
+Explanation:
+This is an example task that you would provide in schedule.txt. The parameters of the task are always separated with commas. 
+1- The very first parameter is the date you will like the task to be done.
+as you can see the day month and year should be separated with dashes '-'. 
+The date of the task for example A is 25th of august 2020. 
+2- The second parameter of the task is the time as you can see the hour and minute are separated using a colon ':'. 
+3- the third parameter is the command that will be running on that specific date and time. The command mentioned here should always be in commandslist.txt file. The third parameter always starts with a forward slash '/', Thus the command name is written after a forward slash.
+4- The fourth parameter is a custom message. If you would like your task to have an explanation you can provide it here.
+5- The fifth parameter is type of task. In example A type of the task is 'loud' which means the application will send you an email after the task is finsihed.
+In case you do not want to receive an email when the task is done, for the fifth parameter write 'silent' without the quotation marks. 
+1-5: So the task seen in 'Example A' does the following:  It runs HelloWorld.py (located in JustAutomateMyDay/Commands/HelloWorld) at 16:01 (or 04:01 PM) on 25th of August 2020 and sends you an email with the following content: JAMD MSG HelloWorld This will print hello world
+
+      
+Example B:
+25-08-2020,16:30,/NotifyMe,Do the dishes,loud
+
+Explanation:
+It runs NotifyMe.py (located in JustAutomateMyDay/Commands/NotifyMe) at 16:30 (or 04:30 PM) on 25th of August 2020 and sends you an email with the following content: JAMD MSG NotifyMe Do the dishes
+
+
+Explanation of commands in commandslist.txt:
+HelloWorld ==> This will print HelloWorld
+LockPC ==> This will lock your PC (the same as 'windowskey + L')
+NotifyMe ==> This command an be used to notify/remind yourself about a specific task.
+SuggestMovie ==> This will suggest you a random movie via email. The suggested movies always have a rating higher than 7 on IMDB.
+SuggestAlbum ==> This will suggest you an album with a high overall rank via email.
+
+
+
+
+
+ 
+

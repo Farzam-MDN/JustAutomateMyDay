@@ -1,0 +1,6 @@
+SMTPServer:smtp.gmail.com
+Port:587
+SenderEmailAddress:somethingsomething42@gmail.com
+SenderEmailPassword:password1234
+RecipientEmailAddress:receiver24124@gmail.com
+OnlineSchedule:https://example.com/JustAutomateMyDay/onlineschedule.txt
