@@ -3,4 +3,4 @@
 25-08-2020,16:20,/SuggestMovie,This will suggest you a movie,silent
 25-08-2020,16:25,/SuggestAlbum,This will suggest you an Album,silent
 25-08-2020,16:30,/NotifyMe,Do the dishes,loud
-
+26-08-2020,10:23,/TechNews,This will email you tech news,silent

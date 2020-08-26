@@ -3,3 +3,4 @@ LockPC
 NotifyMe
 SuggestMovie
 SuggestAlbum
+TechNews

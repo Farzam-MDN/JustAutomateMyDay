@@ -56,6 +56,7 @@ LockPC ==> This will lock your PC (the same as 'windowskey + L')
 NotifyMe ==> This command an be used to notify/remind yourself about a specific task.
 SuggestMovie ==> This will suggest you a random movie via email. The suggested movies always have a rating higher than 7 on IMDB.
 SuggestAlbum ==> This will suggest you an album with a high overall rank via email.
+TechNews ==> This will email you about the latest tech news.
 
 
 
