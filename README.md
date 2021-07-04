@@ -1,6 +1,11 @@
 # JustAutomateMyDay
 
+
+
+<!---
 ![JustAutomateMyDay Logo](https://i.imgur.com/6a0G8wz.png)
+-->
+
 
 JustAutomateMyDay (abbreviated as JAMD) is a python app that can run other python programs based on a specific schedule. Using this tool you can schedule any task such as webscraping or sending emails on a specific date and a specific time. You can even provide your own python applications and make them run based on your schedule!
 
@@ -60,21 +65,21 @@ Now to be able to run your command on a schedule, go to schedule.txt in JustAuto
 
 ## Contributing
 
-Feel free to fork and expand this project! Make a pull request if you would like to add your code to the project.
+Feel free to fork and expand this project! Send a pull request if you would like to add your code to the project.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/WozniakManiac/JustAutomateMyDay/releases). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Farzam-MDN/JustShareKeys/releases). 
 
 ## Authors
 
-* **Farzam Madani** - *Creation of the core application* - [WozniakManiac](https://github.com/WozniakManiac)
+* **Farzam Madani** - *Creation of the core application* - [Farzam-MDN](https://github.com/Farzam-MDN)
 
-See also the list of [contributors](https://github.com/WozniakManiac/JustAutomateMyDay/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Farzam-MDN/JustShareKeys/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/WozniakManiac/JustAutomateMyDay/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Farzam-MDN/JustShareKeys/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
